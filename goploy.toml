@@ -1,0 +1,60 @@
+env = 'dev'
+[app]
+deployLimit = 8
+shutdownTimeout = 10
+repositoryPath = ''
+# How many days before the password needs to be changed?
+passwordPeriod = 0
+
+[cors]
+enabled = false
+origins = '*'
+methods = 'GET, POST, PUT, DELETE, OPTIONS'
+headers = 'X-API-KEY'
+credentials = true
+
+[cookie]
+name = 'goploy_token'
+expire = 86400
+
+[jwt]
+key = '2021-12-14 18:43:15.8805255 +0800 CST m=+0.004156701'
+
+[db]
+type = 'mysql'
+user = 'root'
+password = 'root'
+host = '172.16.22.17'
+port = '3306'
+database = 'goploy'
+
+[log]
+path = 'stdout'
+
+[web]
+port = '3001'
+
+# public ldap https://www.forumsys.com/2022/05/10/online-ldap-test-server/
+[ldap]
+enabled = false
+url = 'ldap://ldap.forumsys.com'
+bindDN = 'cn=read-only-admin,dc=example,dc=com'
+password = 'password'
+baseDN = 'dc=example,dc=com'
+uid = 'uid'
+name = 'cn'
+userFilter = ''
+
+[dingtalk]
+appKey = ''
+appSecret = ''
+
+[feishu]
+appKey = ''
+appSecret = ''
+
+[captcha]
+enabled = false
+
+[cache]
+type = 'memory'
