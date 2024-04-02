@@ -1,0 +1,1 @@
+import{c as n,b as u}from"./index.0bbfe100.js";import{f as a,h as p}from"./elementUI.8c153608.js";const f=a({setup(){const t=n(),e=u(),{params:o,query:r}=t,{path:s}=o;e.push({path:"/"+s,query:r})},render(){return p("div")}});export{f as default};
