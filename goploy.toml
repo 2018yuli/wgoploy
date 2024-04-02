@@ -24,7 +24,7 @@ key = '2021-12-14 18:43:15.8805255 +0800 CST m=+0.004156701'
 type = 'mysql'
 user = 'root'
 password = 'root'
-host = '172.16.22.17'
+host = 'localhost'
 port = '3306'
 database = 'goploy'
 
